@@ -1074,7 +1074,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 #blog .block-blog .content-blog h4 {
   line-height: 24px;
   margin-bottom: 20px;
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
   font-weight: normal;
   letter-spacing: 0;
   font-size: 16px;
