@@ -7,7 +7,7 @@ name: Renvee
 
 # Short bio or description (displayed in the header)
 description: Landing Page
-
+favicon: "/img/favicon.ico"
 #
 # Flags below are optional
 #
