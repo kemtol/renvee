@@ -50,7 +50,7 @@ li {
   color: #626262;
   font-size: 13px;
   font-weight: 400;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   line-height: 30px;
   text-transform: capitalize;
 }
@@ -150,7 +150,7 @@ span {
 
 #header #logo h1 {
   color: #505050;
-  font-family: "Philosopher", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 26px;
   font-weight: 500;
   letter-spacing: 1px;
@@ -175,7 +175,7 @@ span {
 
 .scroll-header {
   background: #fff;
-  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.03);
 }
 
 /*--------------------------------------------------------------
@@ -246,6 +246,7 @@ span {
 #hero img {
   max-width: 95%;
   margin-bottom: 30px;
+  visibility:hidden;
 }
 
 #hero .btn-get-started {
@@ -592,10 +593,10 @@ body.mobile-nav-active #mobile-nav-toggle i {
   }
 }
 
-#get-started .feature-block:hover {
+/*#get-started .feature-block:hover {
   box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
   transition: all 0.5s ease-in-out 0s;
-}
+}*/
 
 #get-started .feature-block h4 {
   margin-bottom: 20px;
@@ -667,10 +668,10 @@ body.mobile-nav-active #mobile-nav-toggle i {
   transition: all 0.5s ease-in-out 0s;
 }
 
-#features .feature-block:hover {
+/*#features .feature-block:hover {
   box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
   transition: all 0.5s ease-in-out 0s;
-}
+}*/
 
 #features .feature-block h4 {
   margin-bottom: 20px;
@@ -915,7 +916,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 --------------------------------*/
 #testimonials .testimonials-content {
   box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
-  padding: 49px 20px;
+  padding: 4rem 5rem;
 }
 
 #testimonials .testimonials-content::before {
@@ -1042,7 +1043,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #pricing .block-pricing .table .table_btn a:hover {
-  background: #55b03f;
+  background: #AB2C30;
 }
 
 #pricing .block-pricing .table .table_btn a .fa {
